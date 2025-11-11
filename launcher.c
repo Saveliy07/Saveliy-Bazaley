@@ -435,5 +435,5 @@ int main(int argn, char *args[]) {
     return error_occurred; // Возврат кода завершения (0 - успех, 1 - ошибка)
 }
 
-// gcc -I. DinoLauncher.c commands.c createfield.c -o  DinoLauncher.exe
-// ./DinoLauncher.exe input.txt output.txt
+// gcc -I. launcher.c commands.c createfield.c -o  launcher.exe
+// ./launcher.exe input.txt output.txt
